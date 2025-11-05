@@ -25,15 +25,16 @@ body {
 	background-color: var(--color-accent);
 	width: 100%;
 	min-height: 100dvh;
+	outline: solid 50px var(--color-black);
 
 	display: flex;
-	/* gap: 1rem; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* align-content: center; */
-	/* flex-wrap: wrap; */
-
 	/* flex-direction: column; */
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	/* align-content: center; */
+	flex-wrap: wrap;
+
 	/* height: 90vh; */
 }
 
@@ -50,8 +51,11 @@ body {
 	flex-basis: 300px; */
 
 	/* flex:1; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-/* .box3 {
-	flex:555;
+/* .box1, .box4 {
+	flex:3;
 } */
